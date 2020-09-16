@@ -19,4 +19,4 @@ Motivação
 Proposta de Solução
 -------------------
 
-  Gerar rotas automaticamente, baseado em dados vindo da api do google maps e dados enviados pelos próprios usuários (quanto mais pessoas usarem, melhor o app fica)
+  Criar uma aplicação que utilize da API do google maps e de dados enviados pelo usuário para gerar rotas automaticamente, levando em conta requisitos de qualidade definidos pelo usuário.
