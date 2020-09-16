@@ -1,4 +1,4 @@
-# metodologia-da-pesquisa-cientifica
+# Metodologia da Pesquisa Cientifica
 
 Problema
 --------
