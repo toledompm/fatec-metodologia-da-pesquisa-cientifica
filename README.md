@@ -3,12 +3,18 @@
 Problema
 --------
 
-  Criar rotas para caminhada/corrida, que levem a pessoa a ter uma "boa experiência"
+  Dificuldade na hora de traçar rotas para atividades ao ar livre.
 
 Motivação
 ---------
 
-  Quando tentamos traçar uma rota para atividade ao ar livre em algum lugar desconhecido,  muito fácil esquecer de coisas que podem estragar a experiência como elevação, trânsito, areas movimentadas e inseguras.
+- Dificíl de identificar "terreno ruim":
+       
+       Variação de elevação alta, trânsito, muito tráfego de pedestres.
+       
+ - Rotas monótonas:
+
+       É dificil traçar um trajeto que comece e termine no mesmo lugar sem passar pelas mesmas localizações. Isso fica ainda mais difícil quando se tenta evitar "terreno ruim".
   
 Proposta de Solução
 -------------------
