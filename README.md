@@ -7,14 +7,13 @@ Problema
 
 Motivação
 ---------
+1. <b>Dificíl de identificar "terreno ruim":</b>
 
-- Dificíl de identificar "terreno ruim":
-       
-       Variação de elevação alta, trânsito, muito tráfego de pedestres.
-       
- - Rotas monótonas:
+   Variação de elevação alta, trânsito, muito tráfego de pedestres.
 
-       É dificil traçar um trajeto que comece e termine no mesmo lugar sem passar pelas mesmas localizações. Isso fica ainda mais difícil quando se tenta evitar "terreno ruim".
+2. <b>Rotas monótonas:</b>
+
+   É dificil traçar um trajeto que comece e termine no mesmo lugar sem passar pelas mesmas localizações. Isso fica ainda mais difícil quando se tenta evitar "terreno ruim".
   
 Proposta de Solução
 -------------------
