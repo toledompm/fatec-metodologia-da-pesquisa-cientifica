@@ -29,3 +29,5 @@ TO-DO
 Estudar referencias:
   - AZEVEDO, Israel Belo. O prazer da produção científica: descubra como é fácil e agradável elaborar trabalhos acadêmicos
   - AS DIFICULDADES NA ELABORAÇÃO DE ARTIGOS CIENTÍFICOS PARA ALUNOS DE GRADUAÇÃO NA ÁREA DA CIÊNCIA DA INFORMAÇÃO: o caso do mini-curso de elaboração de artigos científicos do curso de Gestão da Informação da UFPE
+  - [O TRABALHO FINAL (TCC) NO CURSO DE CIÊNCIAS DA COMPUTAÇÃO NA PERCEPÇÃO DE PROFESSORES ORIENTADORES](http://periodicos.unisantos.br/serieducacao/article/view/349)
+  - [Metodologia de Pesquisa para Ciência da Computação](https://edisciplinas.usp.br/pluginfile.php/4432224/mod_resource/content/1/5-6-MetodologiaDePesquisaEmCienciaDaComputacao-Reda%C3%A7%C3%A3oMonografia_cap8e5.pdf)
