@@ -3,19 +3,29 @@
 Problema
 --------
 
-  Dificuldade na hora de traçar rotas para atividades ao ar livre.
+  Gerar documentação de código automático no formato ABNT para documentos técnicos.
 
 Motivação
 ---------
-1. <b>Dificíl de identificar "terreno ruim":</b>
+1. <b>Dificuldade na hora de alterar código:</b>
 
-   Variação de elevação alta, trânsito, muito tráfego de pedestres.
+   Quando há uma alteração no código, ela deve ser sincronizada com a documentação, o que torna o desenvolvimento da parte técnica e teórica paralela muito difícil.
 
-2. <b>Rotas monótonas:</b>
+2. <b>Barreira para trabalhos teóricos:</b>
 
-   É dificil traçar um trajeto que comece e termine no mesmo lugar sem passar pelas mesmas localizações. Isso fica ainda mais difícil quando se tenta evitar "terreno ruim".
+   Vários projetos desenvolvidos poderiam ser apresentados como documento técnico, no entanto a dificuldade de desenvolver a documentação acaba agindo como um obstaculo.
+   
+3. <b>Facilitar a documentação paralela:</b>
+   
+   Fica muito mais fácil de descrever uma função ou modulo enquanto ela é desenvolvida do que quando o projeto já está pronto.
   
 Proposta de Solução
 -------------------
 
-  Criar uma aplicação que utilize da API do google maps e de dados enviados pelo usuário para gerar rotas automaticamente, levando em conta requisitos de qualidade definidos pelo usuário.
+  Será criado um pacote NPM que através de anotations no código, irá gerar um documento na forma ABNT com os comentários de cada módulo.
+  
+TO-DO
+-----
+Estudar referencias:
+  - AZEVEDO, Israel Belo. O prazer da produção científica: descubra como é fácil e agradável elaborar trabalhos acadêmicos
+  - AS DIFICULDADES NA ELABORAÇÃO DE ARTIGOS CIENTÍFICOS PARA ALUNOS DE GRADUAÇÃO NA ÁREA DA CIÊNCIA DA INFORMAÇÃO: o caso do mini-curso de elaboração de artigos científicos do curso de Gestão da Informação da UFPE
