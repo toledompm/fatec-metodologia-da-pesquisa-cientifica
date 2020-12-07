@@ -3,31 +3,28 @@
 Problema
 --------
 
-  Gerar documentação de código automático no formato ABNT para documentos técnicos.
+  Documentar projetos JavaScript automaticamente, através de trechos de comentários, marcados por decorators. O output deverá ser no formato Latex, com o objetivo de integrar fácilmente com artigos ciêntificos em desenvolvimento.
 
 Motivação
 ---------
-1. <b>Dificuldade na hora de alterar código:</b>
-
-   Quando há uma alteração no código, ela deve ser sincronizada com a documentação, o que torna o desenvolvimento da parte técnica e teórica paralela muito difícil.
-
-2. <b>Barreira para trabalhos teóricos:</b>
-
-   Vários projetos desenvolvidos poderiam ser apresentados como documento técnico, no entanto a dificuldade de desenvolver a documentação acaba agindo como um obstaculo.
+   Documentação não é um dos processos mais glamurosos da programação, e geralmente é deixado de lado até o projeto ser finalizado. Além de normalmente ser feita através de ferramentas externas, facilitando que partes sejam omitidas, e alterações sem atualizar a documentação.
+   https://uxdesign.cc/documenting-is-designing-how-documentation-drives-better-design-outcomes-3ebd87a33d57
    
-3. <b>Facilitar a documentação paralela:</b>
-   
-   Fica muito mais fácil de descrever uma função ou modulo enquanto ela é desenvolvida do que quando o projeto já está pronto.
-  
+   No entanto é uma das partes mais importantes do desenvolvimento. O tempo gasto documentando um projeto é resgatado em diversas ocasiões, como quando um novo integrante precisa se situar no projeto, ou quando um cliente tem sua dúvida respondida por uma rápida pesquisa.
+   https://medium.com/eloquent-coding/do-developers-dream-of-self-documenting-code-ca64d472197a
+
+   Os problemas apresentados não são novidade, e já existem diversas ferramentas que solucionam muitos deles. No entanto os documentos produzidos são geralmente voltados a outros desenvolvedores. Deixando uma lacuna quando o objetivo da documentação for para fins academicos.
+   https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561
+
 Proposta de Solução
 -------------------
 
   Será criado um pacote NPM que através de anotations no código, irá gerar um documento na forma ABNT com os comentários de cada módulo.
+
+  Tratar documentação como código nos ajuda a solucionar um problema grande de documentação por versão. Ao utilizar ferramentas de versionamento de software como git, é possivél gerar documentos a partir de releases antigos, pois a documentação do código antigo está diretamente atrelada a ele.
+  https://dev.to/nicoespeon/where-should-you-put-the-documentation-18gg
   
 TO-DO
 -----
 Estudar referencias:
-  - AZEVEDO, Israel Belo. O prazer da produção científica: descubra como é fácil e agradável elaborar trabalhos acadêmicos
-  - AS DIFICULDADES NA ELABORAÇÃO DE ARTIGOS CIENTÍFICOS PARA ALUNOS DE GRADUAÇÃO NA ÁREA DA CIÊNCIA DA INFORMAÇÃO: o caso do mini-curso de elaboração de artigos científicos do curso de Gestão da Informação da UFPE
-  - [O TRABALHO FINAL (TCC) NO CURSO DE CIÊNCIAS DA COMPUTAÇÃO NA PERCEPÇÃO DE PROFESSORES ORIENTADORES](http://periodicos.unisantos.br/serieducacao/article/view/349)
-  - [Metodologia de Pesquisa para Ciência da Computação](https://edisciplinas.usp.br/pluginfile.php/4432224/mod_resource/content/1/5-6-MetodologiaDePesquisaEmCienciaDaComputacao-Reda%C3%A7%C3%A3oMonografia_cap8e5.pdf)
+   - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561
