@@ -18,6 +18,9 @@ Motivação
    Os problemas apresentados não são novidade, e já existem diversas ferramentas que solucionam muitos deles. No entanto, os documentos produzidos são geralmente voltados a outros desenvolvedores. Deixando uma lacuna quando o objetivo da documentação for para fins acadêmicos.
    [Ten simple rules for documenting scientific software - Benjamin D. Lee - December 20, 2018](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561)
 
+![Geek&Poke](./static/documentation-is-key.jpeg)
+[Figura 1 - Charge sobre projeto mal documentado](http://geek-and-poke.com/geekandpoke/2010/1/31/documentation-is-key.html)
+
 Proposta de Solução
 ---
   Será criado um pacote NPM que fornecerá decorators possibilitando documentar projetos "on-the-fly". Fornecendo um documento Latex baseado em blocos de comentários, que terão sua formatação definida pelo decorator utilizado para identifica-lo
@@ -25,8 +28,6 @@ Proposta de Solução
   Tratar documentação como código nos ajuda a solucionar um problema grande de documentação por versão. Ao utilizar ferramentas de versionamento de software como git, é possível gerar documentos a partir de releases antigos, pois a documentação do código antigo está diretamente atrelada a ele.
   [Where should you put the documentation? - Nicolas Carlo - dev.to](https://dev.to/nicoespeon/where-should-you-put-the-documentation-18gg)
 
-  ![Geek&Poke](./static/documentation-is-key.jpeg)
-  [Figura 1 - Charge sobre projeto mal documentado](http://geek-and-poke.com/geekandpoke/2010/1/31/documentation-is-key.html)
 TO-DO
 ---
 Estudar referencias:
